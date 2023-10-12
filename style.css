@@ -11,10 +11,10 @@ p {
 }
 
 .cards {
+  width: 30vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 25px;
-  /* grid-template-rows: repeat(auto-fit, 250px); */
+  gap: 25px;
 }
 
 .display-card {
@@ -24,4 +24,13 @@ p {
   height: 250px;
   width: 250px;
   border: 2px solid black;
+}
+
+form {
+  /* border: 2px solid black; */
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
 }
